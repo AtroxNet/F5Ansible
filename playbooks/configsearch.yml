@@ -66,7 +66,7 @@
         line: "\n\n ############## BIG-IP Unit {{ inventory_hostname }} ############## \n\n"
       when: vipcontents.stdout != ""
 
-    - name: Copying files from Remote Units to Local
+    - name: Cleaning up files from Remote Units to Local
       fetch:
         src: /var/tmp/listvirtual_display
         dest: /var/tmp/fetched/{{ inventory_hostname }}
