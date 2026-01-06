@@ -1,5 +1,5 @@
 # F5ConfigSync
-Config Sync from the most updated F5 Redundanct peer
+Ansible scripts for Config Sync and Config Search
 Ansible script that is going to Sync configuration from the peer device that has most recent changes.
 
 This script involves SSH logins to remote F5s and has been tested from RHEL unit.
